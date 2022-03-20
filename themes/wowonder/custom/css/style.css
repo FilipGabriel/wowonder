@@ -1,0 +1,44 @@
+/* Add here your custom css styles Example: p { text-align: center; color: red; } */
+
+/* REGISTER */
+.login .title{
+    display: flex;
+    align-items: center;
+}
+.login .title .fa{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.custom-type-selector{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.type-select{
+    border-radius: 12px;
+    border: 1px solid #e2e2e2;
+    padding: 20px;
+    width: 100%;
+    max-width: 30%;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.type-select:hover {
+    border: 1px solid #67BE63;
+    box-shadow: 0 0 6px 1px #67be63;
+}
+.type-select img{
+    width: 100%;
+    max-height: 180px;
+}
+.type-select .desc{
+    margin-bottom: 0;
+}
+
+/* END REGISTER */
